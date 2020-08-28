@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Moniba's album</title>
+
+    <link rel="stylesheet" type="text/css" href="theme-album.css">
+    <script src="script-album.js"></script>
+
+  </head>
+
+  <body>
+    <div>
+      <br />
+      <b id = "Welcome" >"Life begins at the end of your comfort zone."<b>
+    </div>
+
+    <div>
+      <br />
+      <div align='center'>
+        <img id= 'England' src="Images/England/0.jpg" width="200" height="200" alt =''
+         onmouseover='showPics(0);' onmouseout = "stop(0);" onclick="showAlbum(0)" />
+        <img id= 'France' src="Images/France/0.jpg" width="200" height="200" alt= ''
+         onmouseover="showPics(1);" onmouseout = "stop(1);" onclick="showAlbum(1)" />
+        <img id= 'Italy' src="Images/Italy/0.jpg" width="200" height="200" alt= ''
+         onmouseover="showPics(2);" onmouseout = "stop(2);" onclick="showAlbum(2)" />
+        <img id= 'Spain' src="Images/Spain/0.jpg" width="200" height="200" alt= ''
+         onmouseover="showPics(3);" onmouseout = "stop(3);" onclick="showAlbum(3)" />
+      </div>
+      <div align = "center">
+        <table id="album" width= 0 height= 0>
+          <tr>
+            <td width = "110px" >
+              <img class="list" id= 's0' src="Images/England/0.jpg" width="0px" height="0px"
+               onclick="original.src=s0.src;"/>
+              <img class="list" id= 's1' src="Images/England/1.jpg" width="0px" height="0px"
+               onclick="original.src=s1.src;"/>
+              <img class="list" id= 's2' src="Images/England/2.jpg" width="0px" height="0px"
+               onclick="original.src=s2.src;"/>
+              <img class="list" id= 's3' src="Images/England/3.jpg" width="0px" height="0px"
+               onclick="original.src=s3.src;"/>
+              <img class="list" id= 's4' src="Images/England/4.jpg" width="0px" height="0px"
+               onclick="original.src=s4.src;"/>
+            </td>
+            <td >
+              <img id= 'original' src="Images/England/0.jpg" width="0px" height="0px"/>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div style="float: right;">
+        <br />
+        <img id ="CR" src="Images/copyright.png" width="15px"/>
+        <b id = "designed" >Designed by Moniba<b>
+      </div>
+    </div>
+  </body>
+
+</html>

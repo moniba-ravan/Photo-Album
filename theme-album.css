@@ -1,0 +1,25 @@
+#Welcome{
+  font-family: cursive;
+  font-size: 25px;
+}
+body{
+  background-image : url("Images/background.jpg");
+}
+
+table{
+  margin:0px;
+  padding: 0px;
+  border-spacing: 1px;
+}
+
+img{
+   margin: 0px;
+}
+img.list{
+    margin: 0px 5px 0px 5px; //top left bottom right
+}
+
+#designed{
+  font-family: cursive;
+  font-size: 15px;
+}
